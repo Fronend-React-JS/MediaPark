@@ -443,3 +443,98 @@ body{
     }
 }
 
+.main-2{
+    width: 1450px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 40px;
+
+    .main-2--News{
+        display: flex;
+        gap: 25px;
+        margin: 0 auto;
+    }
+
+    h2{
+        font-size: 28px;
+        opacity: 0.8;
+
+    }
+}
+
+.Hits{
+    width: 215px;
+    height: 480px;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px;
+    &:hover{
+        border: 1px solid rgb(208, 205, 205);
+        border-radius: 10px;
+        transition: all 0.4s;
+    }
+
+    .Hits--img{
+        width: 190px;
+        height: 190px;
+        position: relative;
+        img{
+            width: 175px;
+            height: 190px;
+        }
+    }
+
+    .heart{
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    .Hits--bottom-text{
+        h1{
+            font-size: 20px;
+            opacity: 0.8;  
+            margin-top: 15px;
+            margin-bottom: 12px;
+        }
+
+        button{
+            padding: 5px 12px;
+            border-radius: 7px;
+            background-color: rgb(255, 238, 238);
+            font-size: 12px;
+            font-weight: 500;
+            border: none;
+            color: rgb(238, 26, 26);
+            margin-bottom: 12px;
+        }
+
+        p{
+            font-size: 14px;
+            color: rgb(108 113 120);
+            margin-bottom: 24px;
+
+        }
+
+        .star{
+            display: flex;
+            gap: 5px;
+            i{
+                font-size: 14px;
+            }
+        }
+
+        .karzinu-eng{
+            button{
+                width: 192px;
+                height: 49px;
+                background-color: rgb(198 41 18);
+                color: #FFF;
+                font-weight: 600;
+                &:hover{
+                    background-color: rgb(230, 43, 14);
+                    transition: all 0.4s;
+                }
+            }
+        }
+    }
+}
