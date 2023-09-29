@@ -132,7 +132,7 @@ body{
         gap: 7px;
         border-radius: 12px;
         border: none;
-        background-color: rgb(223, 7, 7);
+        background-color: rgb(217 46 21);
         cursor: pointer;
 
         p {
@@ -167,7 +167,7 @@ body{
             cursor: pointer;
             border: none;
             border-radius: 10px;
-            background-color: rgb(223, 7, 7);
+            background-color: rgb(217 46 21);
 
             i {
                 color: #FFF;
@@ -320,6 +320,117 @@ body{
             }
         }
     }
-
-    
 }
+
+.main-1{
+    width: 1500px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 40px;
+
+    .main-1--News{
+        display: flex;
+        gap: 25px;
+        margin: 0 auto;
+    }
+
+    h2{
+        font-size: 28px;
+        opacity: 0.8;
+
+    }
+}
+
+.advertising{
+    width: 215px;
+    height: 480px;
+    border: 1px solid rgb(255, 255, 255);
+    padding-top: 80px;
+    &:hover{
+        border: 1px solid rgb(208, 205, 205);
+        border-radius: 10px;
+        transition: all 0.4s;
+    }
+
+    .advertising--img{
+        width: 188px;
+        height: 190px;
+        img{
+            width: 180px;
+            height: auto;
+            margin-left: 18px;
+        }
+    }
+}
+
+.advertising--bottom-text{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-left: 10px;
+    
+    h1{
+        font-size: 20px;
+    }
+
+    button{
+        padding: 5px 12px;
+        border: 1px solid rgb(47, 46, 46);
+        border-radius: 7px;
+        background-color: #FFF;
+        font-size: 12px;
+        font-weight: 500;
+        width: 170px;
+        height: auto;
+    }
+
+    p{
+        font-size: 14px;
+        color: rgb(108 113 120);
+
+    }
+
+    .star{
+        display: flex;
+        gap: 5px;
+        i{
+            font-size: 14px;
+        }
+    }
+
+    .buttons-icon{
+
+        button{
+            border: none;
+            background-color: #f4f6f7;
+            cursor: pointer;
+            &:hover{
+                transition: all 0.4s;
+                background-color: #e1e3e4;
+            }
+        }
+
+        display: flex;
+        gap: 5px;
+
+        i{
+            font-size: 16px;
+        }
+
+        .cart{
+            background-color: rgb(217 46 21);
+            padding: 14px;
+            border-radius: 10px;
+            justify-content: center;
+            align-items: center;
+            border: none;
+            cursor: pointer;
+            &:hover{
+                background-color: rgb(233, 44, 15);
+            }
+        }
+    }
+}
+
+
+

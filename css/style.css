@@ -442,7 +442,7 @@ body {
   gap: 7px;
   border-radius: 12px;
   border: none;
-  background-color: rgb(223, 7, 7);
+  background-color: rgb(217, 46, 21);
   cursor: pointer;
 }
 .header__container--herder-center .Katalog-i p {
@@ -473,7 +473,7 @@ body {
   cursor: pointer;
   border: none;
   border-radius: 10px;
-  background-color: rgb(223, 7, 7);
+  background-color: rgb(217, 46, 21);
 }
 .header__container--herder-center .search .search-icon i {
   color: #FFF;
@@ -591,4 +591,100 @@ body {
 }
 .main__container .categories--device-text .phone i {
   font-size: 28px;
+}
+
+.main-1 {
+  width: 1500px;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+.main-1 .main-1--News {
+  display: flex;
+  gap: 25px;
+  margin: 0 auto;
+}
+.main-1 h2 {
+  font-size: 28px;
+  opacity: 0.8;
+}
+
+.advertising {
+  width: 215px;
+  height: 480px;
+  border: 1px solid rgb(255, 255, 255);
+  padding-top: 80px;
+}
+.advertising:hover {
+  border: 1px solid rgb(208, 205, 205);
+  border-radius: 10px;
+  transition: all 0.4s;
+}
+.advertising .advertising--img {
+  width: 188px;
+  height: 190px;
+}
+.advertising .advertising--img img {
+  width: 180px;
+  height: auto;
+  margin-left: 18px;
+}
+
+.advertising--bottom-text {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-left: 10px;
+}
+.advertising--bottom-text h1 {
+  font-size: 20px;
+}
+.advertising--bottom-text button {
+  padding: 5px 12px;
+  border: 1px solid rgb(47, 46, 46);
+  border-radius: 7px;
+  background-color: #FFF;
+  font-size: 12px;
+  font-weight: 500;
+  width: 170px;
+  height: auto;
+}
+.advertising--bottom-text p {
+  font-size: 14px;
+  color: rgb(108, 113, 120);
+}
+.advertising--bottom-text .star {
+  display: flex;
+  gap: 5px;
+}
+.advertising--bottom-text .star i {
+  font-size: 14px;
+}
+.advertising--bottom-text .buttons-icon {
+  display: flex;
+  gap: 5px;
+}
+.advertising--bottom-text .buttons-icon button {
+  border: none;
+  background-color: #f4f6f7;
+  cursor: pointer;
+}
+.advertising--bottom-text .buttons-icon button:hover {
+  transition: all 0.4s;
+  background-color: #e1e3e4;
+}
+.advertising--bottom-text .buttons-icon i {
+  font-size: 16px;
+}
+.advertising--bottom-text .buttons-icon .cart {
+  background-color: rgb(217, 46, 21);
+  padding: 14px;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+}
+.advertising--bottom-text .buttons-icon .cart:hover {
+  background-color: rgb(233, 44, 15);
 }/*# sourceMappingURL=style.css.map */
