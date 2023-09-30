@@ -412,27 +412,27 @@ body {
   height: auto;
   background-color: #FFF;
 }
-.header__container--herder-center .header-center--menu {
+.header__container--herder-center .header-center--nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 20px;
 }
-.header__container--herder-center .header-center--menu .icon-text {
+.header__container--herder-center .header-center--nav .icon-text {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 8px;
   cursor: pointer;
 }
-.header__container--herder-center .header-center--menu .icon-text i {
+.header__container--herder-center .header-center--nav .icon-text i {
   font-size: 20px;
   color: rgb(1, 1, 128);
 }
-.header__container--herder-center .header-center--menu .icon-text p {
+.header__container--herder-center .header-center--nav .icon-text p {
   color: #353535;
 }
-.header__container--herder-center .header-center--menu .icon-text p:hover {
+.header__container--herder-center .header-center--nav .icon-text p:hover {
   color: black;
   transition: all 0.4s;
 }
@@ -782,6 +782,7 @@ body {
   background-color: rgb(198, 41, 18);
   color: #FFF;
   font-weight: 600;
+  cursor: pointer;
 }
 .Hits .Hits--bottom-text .karzinu-eng button:hover {
   background-color: rgb(230, 43, 14);
@@ -800,4 +801,15 @@ body {
   width: 1470px;
   height: auto;
   margin: 0 auto;
+  border-radius: 12px;
+}
+
+.main-4 {
+  width: 1500px;
+  height: auto;
+  margin: 0 auto;
+}
+.main-4 .main-4--Advertising-part {
+  display: flex;
+  gap: 30px;
 }/*# sourceMappingURL=style.css.map */

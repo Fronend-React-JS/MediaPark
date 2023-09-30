@@ -96,7 +96,7 @@ body{
     height: auto;
     background-color: #FFF;
 
-    .header-center--menu {
+    .header-center--nav {
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -541,6 +541,7 @@ body{
                 background-color: rgb(198 41 18);
                 color: #FFF;
                 font-weight: 600;
+                cursor: pointer;
                 &:hover{
                     background-color: rgb(230, 43, 14);
                     transition: all 0.4s;
@@ -561,5 +562,16 @@ body{
         width: 1470px;
         height: auto;
         margin: 0 auto;
+        border-radius: 12px;
+    }
+}
+
+.main-4{
+    width: 1500px;
+    height: auto;
+    margin: 0 auto;
+    .main-4--Advertising-part{
+        display: flex;
+        gap: 30px;
     }
 }
