@@ -922,4 +922,109 @@ body {
 .main-5 .main-5__laptops .laptop--bottom-text .Pay-in-installments .month {
   border: none;
   background-color: transparent;
+}
+
+.main-6 {
+  width: 1450px;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+.main-6 h2 {
+  font-size: 24px;
+  opacity: 0.8;
+}
+.main-6 .Kitchen-appliances {
+  width: 1450px;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  gap: 24px;
+}
+.main-6 .applinaces {
+  width: 215px;
+  height: 480px;
+  border: 1px solid rgb(255, 255, 255);
+  padding: 7px;
+}
+.main-6 .applinaces:hover {
+  border: 1px solid rgb(208, 205, 205);
+  border-radius: 10px;
+  transition: all 0.4s;
+}
+.main-6 .applinaces .appliances--img {
+  width: 188px;
+  height: 190px;
+  margin-top: 60px;
+}
+.main-6 .applinaces .appliances--img img {
+  width: 180px;
+  height: auto;
+  cursor: pointer;
+}
+.main-6 .appliances--bottom-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 12px;
+}
+.main-6 .appliances--bottom-text h1 {
+  font-size: 20px;
+  opacity: 0.8;
+}
+.main-6 .appliances--bottom-text button {
+  padding: 5px 12px;
+  border: 1px solid rgb(47, 46, 46);
+  border-radius: 7px;
+  background-color: #FFF;
+  font-size: 12px;
+  font-weight: 500;
+  width: 170px;
+  height: auto;
+}
+.main-6 .appliances--bottom-text p {
+  font-size: 14px;
+  color: rgb(108, 113, 120);
+  margin-bottom: 5px;
+}
+.main-6 .appliances--bottom-text .star {
+  display: flex;
+  gap: 5px;
+}
+.main-6 .appliances--bottom-text .star i {
+  font-size: 14px;
+}
+.main-6 .appliances--bottom-text .buttons-icon {
+  display: flex;
+  gap: 5px;
+}
+.main-6 .appliances--bottom-text .buttons-icon button {
+  border: none;
+  background-color: #f4f6f7;
+  cursor: pointer;
+}
+.main-6 .appliances--bottom-text .buttons-icon button i {
+  opacity: 0.6;
+}
+.main-6 .appliances--bottom-text .buttons-icon button:hover {
+  transition: all 0.4s;
+  background-color: #e1e3e4;
+}
+.main-6 .appliances--bottom-text .buttons-icon i {
+  font-size: 16px;
+}
+.main-6 .appliances--bottom-text .buttons-icon .cart {
+  background-color: rgb(217, 46, 21);
+  padding: 14px;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+}
+.main-6 .appliances--bottom-text .buttons-icon .cart i {
+  opacity: 1;
+}
+.main-6 .appliances--bottom-text .buttons-icon .cart:hover {
+  background-color: rgb(233, 44, 15);
 }/*# sourceMappingURL=style.css.map */
