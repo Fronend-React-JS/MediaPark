@@ -526,6 +526,7 @@ body{
 
         }
 
+
         .star{
             display: flex;
             gap: 5px;
@@ -596,5 +597,105 @@ body{
     .main-4--Advertising-part{
         display: flex;
         gap: 30px;
+
+        .mr-btm{
+            margin-bottom: 22px;
+        }
+    }
+}
+
+.main-5{
+    width: 1500px;
+    height: auto;
+    margin: 0 auto;
+
+    h2{
+        font-size: 28px;
+        opacity: 0.8;
+        margin: 30px 0;
+    }
+
+    .main-5__container{
+        width: 1480px;
+        height: auto;
+        margin: 0 auto;
+        display: flex;
+        gap: 24px;
+    }
+    .main-5__laptops{
+        width: 226px;
+        height: 429px;
+        height: auto;
+        margin: 0 auto;
+        padding: 10px;
+        img{
+            width: 190px;
+            height: 190px;
+            
+        }
+
+        .laptop--bottom-text{
+            width: 199px;
+            height: 197px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            .star{
+                display: flex;
+                gap: 4px;
+                i{
+                    font-size: 14px;
+                }
+            }
+
+            p{
+                font-size: 14px;
+                color: rgb(108 113 120);
+                margin-bottom: 24px;
+                text-align: center;
+            }
+
+            h1{
+                font-size: 20px;
+                opacity: 0.8;  
+                margin-top: 15px;
+                margin-bottom: 12px;
+                text-align: center;
+            }
+
+            .Pay-in-installments{
+                width: 199px;
+                height: 47px;
+                background: rgb(231, 229, 229);
+                margin: 0 auto;
+                display: flex;
+                align-items: center;
+                background-color: rgb(248 248 249);
+                gap: 3px;
+                border-radius: 12px;
+
+                .sum{
+                    width: 122px;
+                    height: 43px;
+                    padding: 5px 15px;
+                    color: rgb(29 36 47);
+                    background-color: rgb(255 255 255);
+                    text-align: center;
+                    font-weight: 500;
+                    border-radius: 10px;
+                    border: none;
+                    margin-left: 2px;
+                    font-size: 14px;
+                }
+
+                .month{
+                    border: none;
+                    background-color: transparent;
+                }
+            }
+        }
+
+
     }
 }
