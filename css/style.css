@@ -629,6 +629,7 @@ body {
 .advertising .advertising--img img {
   width: 180px;
   height: auto;
+  cursor: pointer;
 }
 .advertising .advertising--img-two img {
   width: 160px;
@@ -677,6 +678,9 @@ body {
   background-color: #f4f6f7;
   cursor: pointer;
 }
+.advertising--bottom-text .buttons-icon button i {
+  opacity: 0.6;
+}
 .advertising--bottom-text .buttons-icon button:hover {
   transition: all 0.4s;
   background-color: #e1e3e4;
@@ -692,6 +696,9 @@ body {
   align-items: center;
   border: none;
   cursor: pointer;
+}
+.advertising--bottom-text .buttons-icon .cart i {
+  opacity: 1;
 }
 .advertising--bottom-text .buttons-icon .cart:hover {
   background-color: rgb(233, 44, 15);
@@ -728,15 +735,18 @@ body {
   width: 190px;
   height: 190px;
   position: relative;
+  margin-top: 35px;
 }
 .Hits .Hits--img img {
   width: 175px;
   height: 190px;
+  cursor: pointer;
 }
 .Hits .heart {
   position: absolute;
   top: 0;
   right: 0;
+  opacity: 0.6;
 }
 .Hits .Hits--bottom-text h1 {
   font-size: 20px;
@@ -776,4 +786,18 @@ body {
 .Hits .Hits--bottom-text .karzinu-eng button:hover {
   background-color: rgb(230, 43, 14);
   transition: all 0.4s;
+}
+.Hits .Hits--bottom-text .margin-un {
+  margin-bottom: 40px;
+}
+
+.main-3 {
+  width: 1500px;
+  height: auto;
+  margin: 40px auto;
+}
+.main-3 img {
+  width: 1470px;
+  height: auto;
+  margin: 0 auto;
 }/*# sourceMappingURL=style.css.map */

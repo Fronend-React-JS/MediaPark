@@ -360,6 +360,7 @@ body{
         img{
             width: 180px;
             height: auto;
+            cursor: pointer;
         }
     }
 
@@ -415,6 +416,10 @@ body{
             border: none;
             background-color: #f4f6f7;
             cursor: pointer;
+
+            i{
+                opacity: 0.6;
+            }
             &:hover{
                 transition: all 0.4s;
                 background-color: #e1e3e4;
@@ -436,6 +441,9 @@ body{
             align-items: center;
             border: none;
             cursor: pointer;
+            i{
+                opacity: 1;
+            }
             &:hover{
                 background-color: rgb(233, 44, 15);
             }
@@ -477,9 +485,11 @@ body{
         width: 190px;
         height: 190px;
         position: relative;
+        margin-top: 35px;
         img{
             width: 175px;
             height: 190px;
+            cursor: pointer;
         }
     }
 
@@ -487,6 +497,7 @@ body{
         position: absolute;
         top: 0;
         right: 0;
+        opacity: 0.6;
     }
 
     .Hits--bottom-text{
@@ -536,5 +547,19 @@ body{
                 }
             }
         }
+        .margin-un{
+            margin-bottom: 40px;
+        }
+    }
+}
+
+.main-3{
+    width: 1500px;
+    height: auto;
+    margin: 40px auto;
+    img{
+        width: 1470px;
+        height: auto;
+        margin: 0 auto;
     }
 }
