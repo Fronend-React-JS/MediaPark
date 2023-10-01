@@ -905,19 +905,20 @@ body{
 }
 
 .footer{
-    width: 1600px;
+    width: 100%;
     height: auto;
     margin: 0 auto;
     margin-top: 70px;
 
     .footer--top{
-        width: 1450px;
+        width: 1500px;
         height: auto;
-        margin-left: 40px;
+        margin: 0 auto;
         display: flex;
         justify-content: space-between;
         align-items: center;
         background-color: #f8f8f9; 
+        padding-right: 70px;
 
         .footer--top--text{
             width: 642px;
@@ -958,17 +959,17 @@ body{
     }
 
     .footer--bottom{
-        width: 1450px;
+        width: 1500px;
         height: auto;
-        margin-left: 40px;
+        margin: 0 auto;
         background: #1d242f;
         display: flex;
         justify-content: space-between;
         align-items: start;
         padding-top: 64px;
         padding-bottom: 48px;
-        padding-left: 15px;
-        padding-right: 15px;
+        padding-left: 25px;
+        padding-right: 25px;
 
         .footer--bottom--block-1{
             h1{
@@ -1042,7 +1043,7 @@ body{
                     display: flex;
                     flex-direction: column;
                     align-items: center;
-                    gap: 5px;
+                    gap: 10px;
                     
                     img{
                         width: 144px;
@@ -1057,6 +1058,67 @@ body{
 
         .footer--bottom--block-3{
             display: flex;
+            gap: 100px;
+            font-size: 14px;
+            .information{
+                ul{
+                    
+                    li{
+                        list-style: none;
+                        margin-bottom: 15px;
+                        .Malumot{
+                            color: white;
+                            opacity: 1;
+                            font-weight: 700;
+                        }
+                        a{
+                            text-decoration: none;
+                            color: rgb(245 245 246);
+                            opacity: 0.8;
+                        }
+                    }
+                }
+            }
+
+            .servies{
+                ul{
+                    
+                    li{
+                        list-style: none;
+                        margin-bottom: 15px;
+                        .xizmat{
+                            color: white;
+                            opacity: 1;
+                            font-weight: 700;
+                        }
+                        a{
+                            text-decoration: none;
+                            color: rgb(245 245 246);
+                            opacity: 0.8;
+                        }
+                    }
+                }
+            }
+
+            .Client{
+                ul{
+                    
+                    li{
+                        list-style: none;
+                        margin-bottom: 15px;
+                        .xaridor{
+                            color: white;
+                            opacity: 1;
+                            font-weight: 700;
+                        }
+                        a{
+                            text-decoration: none;
+                            color: rgb(245 245 246);
+                            opacity: 0.8;
+                        }
+                    }
+                }
+            }
         }
     }
 
