@@ -1243,6 +1243,10 @@ body {
   color: rgb(245, 245, 246);
   opacity: 0.8;
 }
+.footer .footer--bottom--block-3 .information ul li a:hover {
+  opacity: 1;
+  color: white;
+}
 .footer .footer--bottom--block-3 .servies ul li {
   list-style: none;
   margin-bottom: 15px;
@@ -1257,6 +1261,10 @@ body {
   color: rgb(245, 245, 246);
   opacity: 0.8;
 }
+.footer .footer--bottom--block-3 .servies ul li a:hover {
+  opacity: 1;
+  color: white;
+}
 .footer .footer--bottom--block-3 .Client ul li {
   list-style: none;
   margin-bottom: 15px;
@@ -1270,4 +1278,29 @@ body {
   text-decoration: none;
   color: rgb(245, 245, 246);
   opacity: 0.8;
+}
+.footer .footer--bottom--block-3 .Client ul li a:hover {
+  opacity: 1;
+  color: white;
+}
+.footer .lowest {
+  width: 1500px;
+  height: auto;
+  padding: 30px 20px;
+  margin: 0 auto;
+  background: rgb(34, 44, 58);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer .lowest a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+}
+.footer .lowest .Networks {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }/*# sourceMappingURL=style.css.map */
