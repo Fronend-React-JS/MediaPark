@@ -1303,4 +1303,25 @@ body {
   display: flex;
   align-items: center;
   gap: 10px;
+}
+
+@media screen and (max-width: 1400px) {
+  .header {
+    width: 100%;
+    height: auto;
+  }
+  .header .header__container--herder-center .search {
+    display: none;
+  }
+  .header .header__container--herder-center .header-center--nav {
+    display: none;
+  }
+  .main {
+    width: 100%;
+    height: auto;
+  }
+  .footer {
+    width: 1400px;
+    height: auto;
+  }
 }/*# sourceMappingURL=style.css.map */
