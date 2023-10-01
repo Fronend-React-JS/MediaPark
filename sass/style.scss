@@ -574,6 +574,10 @@ body{
     height: auto;
     margin: 0 auto;
 
+    h2{
+        @include h2-style(26px, 0.8)
+    }
+
     .main-4--buttons{
         display: flex;
         gap: 14px;
@@ -1182,4 +1186,27 @@ body{
     }
 }
 
+@media screen and (max-width: 400px) {
+    .header{
 
+        .header__container--herder-top{
+            display: none;
+        }
+
+        .header__container--herder-bottom{
+            display: none;
+        }
+
+        .header__container--herder-center{
+            position: fixed;
+            top: 0;
+            z-index: 1;
+        }
+
+        .footer--bottom{
+            display: none;
+        }
+
+        }
+
+}

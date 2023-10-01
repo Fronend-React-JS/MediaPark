@@ -811,6 +811,10 @@ body {
   height: auto;
   margin: 0 auto;
 }
+.main-4 h2 {
+  font-size: 26px;
+  opacity: 0.8;
+}
 .main-4 .main-4--buttons {
   display: flex;
   gap: 14px;
@@ -1323,5 +1327,21 @@ body {
   .footer {
     width: 1400px;
     height: auto;
+  }
+}
+@media screen and (max-width: 400px) {
+  .header .header__container--herder-top {
+    display: none;
+  }
+  .header .header__container--herder-bottom {
+    display: none;
+  }
+  .header .header__container--herder-center {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+  }
+  .header .footer--bottom {
+    display: none;
   }
 }/*# sourceMappingURL=style.css.map */
