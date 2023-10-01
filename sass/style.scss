@@ -9,6 +9,11 @@
     box-sizing: border-box;
 }
 
+@mixin h2-style ($font-size , $opacity) {
+font-size: $font-size;
+opacity: $opacity;
+}
+
 body{
     font-family: 'Gilroy';
 }
@@ -338,9 +343,7 @@ body{
     }
 
     h2{
-        font-size: 28px;
-        opacity: 0.8;
-
+        @include h2-style(26px, 0.8)
     }
 }
 
@@ -465,9 +468,7 @@ body{
     }
 
     h2{
-        font-size: 28px;
-        opacity: 0.8;
-
+        @include h2-style(26px, 0.8)
     }
 }
 
@@ -611,9 +612,9 @@ body{
     margin: 0 auto;
 
     h2{
-        font-size: 28px;
-        opacity: 0.8;
         margin: 30px 0;
+        @include h2-style(26px, 0.8)
+        
     }
 
     .main-5__container{
@@ -708,8 +709,7 @@ body{
     margin-top: 40px;
 
     h2{
-        font-size: 24px;
-        opacity: 0.8;
+        @include h2-style(26px, 0.8)
     }
 
     .Kitchen-appliances{
@@ -749,9 +749,8 @@ body{
         justify-content: space-between;
         gap: 12px;
     
-        h1{
-            font-size: 20px;
-            opacity: 0.8;
+        h2{
+            @include h2-style(26px, 0.8)
         }
     
         button{
@@ -830,9 +829,8 @@ body{
     .main-7--container{
         .container--brends{
             h2{
-                font-size: 28px;
-                opacity: 0.8;
                 margin: 30px 0;
+                @include h2-style(26px, 0.8)
             }
 
             .brends--wraper{
@@ -1158,4 +1156,4 @@ body{
         }
     }
 
-    
+
