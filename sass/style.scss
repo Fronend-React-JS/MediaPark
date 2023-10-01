@@ -958,6 +958,105 @@ body{
     }
 
     .footer--bottom{
+        width: 1450px;
+        height: auto;
+        margin-left: 40px;
         background: #1d242f;
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+        padding-top: 64px;
+        padding-bottom: 48px;
+        padding-left: 15px;
+        padding-right: 15px;
+
+        .footer--bottom--block-1{
+            h1{
+                width: 155px;
+                height: 24px;
+                color: white;
+            }
+
+            .question{
+                width: 274px;
+                height: 42px;
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 150%;
+                color: white;
+                margin-top: 32px;
+                margin-bottom: 10px;
+            }
+
+            a{
+                font-weight: 700;
+                color: white;
+                font-size: 16px;
+                display: block;
+                margin-bottom: 16px;
+                text-decoration: none;
+            }
+
+            p{
+                font-weight: 500;
+                margin-bottom: 10px;
+                color: white;
+                font-size: 14px;
+            }
+
+            span{
+                font-weight: 700;
+                color: white;
+                font-size: 16px;
+            }
+            }
+        }
+
+        .footer--bottom--block-2{
+            h4{
+                color: white;
+                font-weight: 14px;
+                margin-bottom: 15px;
+            }
+
+            .pay{
+                display: flex;
+                gap: 10px;
+
+                .pay--block-1{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 10px;
+                    img{
+                        width: 144px;
+                        height: 53px;
+                        padding: 5px;
+                        background: #222C3A;
+                        border-radius: 10px;
+                    }
+                    
+                }
+
+                .pay--block-2{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 5px;
+                    
+                    img{
+                        width: 144px;
+                        padding: 10px;
+                        height: 53px;
+                        background: #222C3A;
+                        border-radius: 10px;
+                    }
+                }
+            }
+        }
+
+        .footer--bottom--block-3{
+            display: flex;
+        }
     }
-}
+
